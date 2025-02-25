@@ -1,0 +1,39 @@
+.todoList_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.add_todo_container {
+  display: flex;
+}
+.add_todo_container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.add_todo_container button {
+  background-color: #4caf50;
+}
+
+#root{
+  width: 100%;
+}
+
+.todo_list_container ul{
+  list-style: none;
+}
+
+.todo_list_container li{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+
+.todo_done{
+  color: rgb(68, 255, 0);
+  text-decoration: line-through;
+}
